@@ -1,0 +1,266 @@
+.post{
+    margin: 40px 0px;
+}
+
+.post .card-body{
+    padding: 0px;
+}
+
+.avatar-img,
+.avatar-name{
+    display: block;
+    float: left;
+    padding-right: 20px;
+}
+
+.avatar-name{
+    line-height: 39px;
+}
+
+.post .avatar-name a{
+    text-decoration: none;
+    color: black;
+}
+
+.post .content{
+    padding: .75rem 1.25rem;
+}
+
+.post .content p{
+    margin: 0px;
+}
+
+.post .content a{
+    color: #999393;
+}
+
+.post .content a:hover{
+    text-decoration: none;
+}
+
+.post .content strong{
+    color: #444444;
+}
+
+.post .likes span{
+    font-size: 27px;
+    padding-right: 10px;
+}
+
+.detalle .post{
+    margin: 0px;
+}
+
+.detalle-img,
+.detalle-detalle{
+    padding: 0px;
+}
+
+.detalle .post{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    overflow: hidden;
+}
+
+.detalle .post .comentarios{
+    overflow-y: scroll;
+    top: 130px;
+    bottom: 154px;
+    position: absolute;
+    width: calc(100% - 4px);
+    padding-right: 30px;
+}
+
+.detalle .post .comment{
+    width: 100%;
+    padding: 5px 0px;
+}
+
+#menu a:hover{
+    text-decoration: none;
+    color: #444444;
+}
+
+.post .card-header,
+.post .card-footer{
+    background-color: #ffffff;
+}
+
+.post .card-footer .form-control{
+    border: none;
+}
+
+.post .comentarios .date{
+    font-size: 14px;
+    color: #999393;
+}
+
+.post .comentarios .comment{
+    display: block;
+}
+
+.post .comentarios .comment p{
+    float: left;
+}
+
+.post .comentarios .comment a{
+    float: right;
+}
+
+.post .likes .heart-red{
+    color: red;
+}
+
+.post .likes .heart-white{
+    color: black;
+}
+
+.profile,
+.profile-img{
+    padding: 25px;
+}
+
+.publicaciones{
+    margin-top: 30px;
+}
+
+.publicaciones .row .col-4{
+    padding: 5px;
+}
+
+.publicaciones h4{
+    text-align: center;
+}
+
+.imagen-detalle{
+    width: 100%;
+    max-width: 290px;
+    max-height: 290px;
+    overflow:hidden;
+}
+
+.imagen-detalle img{
+    width: 290px;
+    height: 290px;
+}
+
+.detalle{
+    margin-top: 30px;
+}
+
+.option{
+    position: absolute;
+    top: 14px;
+    right: 18px;
+    font-size: 20px;
+}
+
+.option a{
+    color: #444444;
+}
+
+.option .dropdown-toggle::after,
+.option .dropleft .dropdown-toggle::before{
+    display: none;
+}
+
+#resultado{
+    width: 300px;
+    max-height: 300px;
+    position: absolute;
+    top: 60px;
+    z-index: 99;
+    background-color: #ffffff;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#resultado .data {
+    padding: 10px;
+}
+
+#users li{
+    height: 65px;
+    padding: 5px 10px;
+}
+
+#users a{
+    color: #444444;
+}
+
+#users p{
+    margin: 0px;
+    padding-left: 20px;
+}
+
+#users .img{
+    display: block;
+    float: left;
+    width: 50px;
+    height: 50px;
+    
+}
+
+#users img{
+    height: 100%;
+    border-radius: 900px;
+    border: 1px solid red;
+}
+
+#users .desc{
+    display: block;
+    float: left;
+}
+
+/*Estilos página index*/
+
+.logo-index{
+    font-family: 'Nanum Brush Script', cursive;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.logo-index img{
+    display: block;
+    float: left;
+}
+
+.logo-index h3{
+    display: block;
+    float: left;
+    padding: 5px 10px;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.img-index{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    align-content: center;
+}
+
+/*Estilos logo index desde el menu*/
+.logo-menu{
+    margin-top: 21px;
+}
+
+.logo-menu-a{
+    color: #444444;
+}
+
+/*PAGINACION*/
+.paginacion{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow:  0px 0px 5px gray;
+    margin: 0px 10px;
+    margin-bottom: 10px;
+}
+
+.paginacion p{
+    display: none;
+}
